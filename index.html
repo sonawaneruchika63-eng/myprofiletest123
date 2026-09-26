@@ -1,3 +1,264 @@
-<h1>
-  Hello
-</h1>>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruchika Sonawane - Profile</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f2f4f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+            background-color: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #4a90e2, #6a5acd);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Sections */
+        section {
+            padding: 30px 40px;
+        }
+
+        section h2 {
+            color: #4a5fd1;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #4a5fd1;
+            padding-bottom: 8px;
+        }
+
+        /* About */
+        .about {
+            text-align: justify;
+        }
+
+        /* Skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background-color: #e8edff;
+            color: #3949ab;
+            padding: 10px 18px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        /* Projects */
+        .projects {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+            background-color: #f7f8fc;
+            border-left: 5px solid #4a5fd1;
+            border-radius: 8px;
+        }
+
+        .project h3 {
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 15px;
+        }
+
+        .education-item h3 {
+            color: #444;
+        }
+
+        /* Contact */
+        .contact p {
+            margin: 8px 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: white;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            section {
+                padding: 25px 20px;
+            }
+
+            .projects {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Profile Header -->
+        <header>
+            <h1>Ruchika Sonawane</h1>
+            <p>IT Engineering Student | Web Development Enthusiast</p>
+        </header>
+
+        <!-- About Me -->
+        <section>
+            <h2>About Me</h2>
+
+            <p class="about">
+                Hello! I am Ruchika Sonawane, a second-year Information Technology
+                engineering student. I am interested in web development, programming,
+                databases and emerging technologies. I enjoy learning new technical
+                skills and developing practical projects.
+            </p>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+
+            <div class="education-item">
+                <h3>Bachelor of Engineering - Information Technology</h3>
+                <p>Currently pursuing my second year of IT Engineering.</p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h2>Technical Skills</h2>
+
+            <div class="skills">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">C</div>
+                <div class="skill">Python</div>
+                <div class="skill">SQL</div>
+                <div class="skill">DBMS</div>
+                <div class="skill">Data Structures</div>
+                <div class="skill">Git & GitHub</div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h2>Projects</h2>
+
+            <div class="projects">
+
+                <div class="project">
+                    <h3>GUI Calculator</h3>
+                    <p>
+                        A Python-based GUI calculator with basic arithmetic
+                        operations and calculation history.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h3>Music Playlist Manager</h3>
+                    <p>
+                        A project for creating, storing, editing and managing
+                        music playlists using data structures.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h3>Circulink</h3>
+                    <p>
+                        A waste-to-wealth platform designed to connect farmers,
+                        industries and transporters for circular waste management.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Strengths -->
+        <section>
+            <h2>Strengths</h2>
+
+            <ul>
+                <li>Quick learner</li>
+                <li>Problem-solving skills</li>
+                <li>Teamwork</li>
+                <li>Willingness to learn new technologies</li>
+            </ul>
+        </section>
+
+        <!-- Career Objective -->
+        <section>
+            <h2>Career Objective</h2>
+
+            <p>
+                To continuously improve my technical skills, gain practical
+                experience through projects and internships, and build a
+                successful career in the field of Information Technology.
+            </p>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact">
+            <h2>Contact</h2>
+
+            <p><strong>Name:</strong> Ruchika Sonawane</p>
+            <p><strong>Email:</strong> your-email@example.com</p>
+            <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+            <p><strong>LinkedIn:</strong> Your LinkedIn Profile</p>
+            <p><strong>GitHub:</strong> Your GitHub Profile</p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2026 Ruchika Sonawane | Personal Profile</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
